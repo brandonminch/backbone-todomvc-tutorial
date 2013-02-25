@@ -2,11 +2,11 @@
 
 ## 1.0
 
-Add a text input with an `id` of "new-todo" and `placeholder` text that reads "What needs to be done?"
+Within #header, add a text input with an `id` of "new-todo" and `placeholder` text that reads "What needs to be done?"
 
 ## 1.1
 
-Add the following elements:
+Add the following elements within #main:
 
 * Checkbox input with an `id` of "toggle-all"
 
