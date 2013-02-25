@@ -1,8 +1,8 @@
 # Building the TodoMVC App with Backbone.js
 
-A learning exercise that deconstructs the creation of the [TodoMVC application](http://www.todomvc.com) with Backbone.js.
+A learning exercise that deconstructs the creation of the [TodoMVC](http://www.todomvc.com)  application with Backbone.js.
 
-## Setup
+## Getting Started
 
 Setup your local git environment so that Github will remember your username and password. This is so you won't have to enter them every time you interact with a remote repo on Github.
 
