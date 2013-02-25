@@ -47,6 +47,8 @@ Create an underscore template with an `id` of "stats-template" that contains the
 
 Using git, commit your changes locally with a commit message describing what has changed.
 
+Merge the changes made in exercise-01 into the exercise-01-complete branch.
+
 Push your changes to your remote repo on github.
 
-Login to Github.com and go to the source repo at https://github.com/brandonminch/backbone-todomvc-tutorial. Create a pull request to have your changes merged into the 
+Login to Github.com and go to the source repo at https://github.com/brandonminch/backbone-todomvc-tutorial. Create a pull request to have your changes merged into the exercise-01-complete branch of the source repo.
