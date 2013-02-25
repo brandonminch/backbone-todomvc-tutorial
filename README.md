@@ -2,16 +2,16 @@
 
 ## 1.0
 
-Add a text input with an `id` of "new-todo" and placeholder text that reads "What needs to be done?"
+Add a text input with an `id` of "new-todo" and `placeholder` text that reads "What needs to be done?"
 
 ## 1.1
 
 Add the following elements:
 
-   * Checkbox input with an `id` of "toggle-all"
+* Checkbox input with an `id` of "toggle-all"
 
-   * Label for #toggle-all input that reads "Mark all as complete" (Make sure to add the "for" attribute)
-   * Empty unordered list with an `id` of "todo-list"
+* `<label>` that reads "Mark all as complete". Add a `for` attribute to the input that binds to the #toggle-all input.
+* Empty `<ul>` with an `id` of "todo-list"
 
 ## 1.2
 
