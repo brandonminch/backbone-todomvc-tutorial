@@ -6,7 +6,7 @@ Load jQuery and app.js scripts at the bottom of the page
 
 ## 2.1
 
-Create an event listener that listens for a `click` event on the example task `<li>` elements. Add a `class` of "editing" to the `<li>` that was clicked and also remove the "editing" `class` from all other tasks in the list.
+In app.js create an event listener that listens for a `click` event on the example task `<li>` elements. Add a `class` of "editing" to the `<li>` that was clicked and also remove the "editing" `class` from all other tasks in the list.
 
 Remove the "editing" `class` from all items in the list when the user clicks on the `#new-todo` input.
 
@@ -14,7 +14,7 @@ Remove the "editing" `class` from all items in the list when the user clicks on 
 
 ## 2.2
 
-In app.js, create an event listener on the `#todoapp` element that listens for a `keyup` event and logs the numerical key code of the key pressed to the browser console.
+Create an event listener on the `#todoapp` element that listens for a `keyup` event and logs the numerical key code of the key pressed to the browser console.
 
 ## 2.3
 
