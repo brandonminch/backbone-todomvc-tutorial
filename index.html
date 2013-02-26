@@ -18,7 +18,32 @@
 		<section id="main">
 			<input id="toggle-all" type="checkbox">
 			<label for="toggle-all">Mark all as complete</label>
-			<ul id="todo-list"></ul>
+			<ul id="todo-list">
+				<li>
+					<div class="view">
+						<input class="toggle" type="checkbox">
+						<label>Example Task 1</label>
+						<button class="destroy"></button>
+					</div>
+					<input class="edit" value="">
+				</li>
+				<li>
+					<div class="view">
+						<input class="toggle" type="checkbox">
+						<label>Example Task 2</label>
+						<button class="destroy"></button>
+					</div>
+					<input class="edit" value="">
+				</li>
+				<li>
+					<div class="view">
+						<input class="toggle" type="checkbox">
+						<label>Example Task 3</label>
+						<button class="destroy"></button>
+					</div>
+					<input class="edit" value="">
+				</li>
+			</ul>
 		</section>
 		<footer id="footer"></footer>
 	</section>
@@ -51,8 +76,6 @@
 		<button id="clear-completed">Clear completed</button>
 	</script>
 	<!-- Ex2.0: Load jQuery and app.js scripts -->
-	<script src="js/lib/jquery.min.js"></script>
-	<script src="js/app.js"></script>
 </body>
 </html>
 
