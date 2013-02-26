@@ -2,7 +2,7 @@
 
 ## 2.0
 
-Load jQuery and app.js scripts at the bottom of the page
+Load jQuery and app.js scripts at the bottom of index.html
 
 ## 2.1
 
