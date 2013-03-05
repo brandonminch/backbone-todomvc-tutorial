@@ -29,3 +29,7 @@ Within `App.create`, add logic so that when a user has pressed the Enter key, a 
 After the todo item is added to the list. Clear the value of the `#new-todo` input.
 
 **Hint:** See jQuery's `val()`, `html()` and `append()` methods.
+
+## 3.4
+
+Merge your changes into the `exercise-03-complete` branch and submit a pull request to the source repo on GitHub.
