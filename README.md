@@ -1,25 +1,31 @@
-# Exercise 2
+# Exercise 3
 
-## 2.0
+## 3.0
 
-Load jQuery and app.js scripts at the bottom of index.html
+Define a javascript [object literal](http://answers.oreilly.com/topic/2138-how-to-use-object-literals-in-javascript/) named `App` that will contain all of the application logic.
+Add an `init` property to the object literal that is a `function` which logs the message "App : init"
+to the console.
 
-## 2.1
+## 3.1
 
-In app.js create an event listener that listens for a `click` event on the example task `<li>` elements. Add a `class` of "editing" to the `<li>` that was clicked and also remove the "editing" `class` from all other tasks in the list.
+Execute `App.init` and verify that it logs "App : init" to the console.
 
-Remove the "editing" `class` from all items in the list when the user clicks on the `#new-todo` input.
+## 3.2
 
-**Bonus:** Try to delegate all events to the `#todoapp` element.
+Add functions named `bindEvents` and `create` to the `App` object.
 
-## 2.2
+Within `App.init`, execute the new `App.bindeEvents` method.
 
-Create an event listener on the `#todoapp` element that listens for a `keyup` event and logs the numerical key code of the key pressed to the browser console.
+## 3.3
 
-## 2.3
+Within `App.bindEvents`, bind the new `App.create` method to all `keyup` events that take place on the `#new-todo` input element.
 
-Within the event handler function created above, check if the key pressed is the enter key. If so, log a message to the console that reads "Todo list item added."
+**Hint:** See jQuery's `on()` method.
 
-**Hint:** Use the functionality from Ex2.1 to determine the key code for the enter key.
+## 3.4
 
-Merge your changes into the `exercise-02-complete` branch and create a pull request in the source repo.
+Within `App.create`, add logic so that when a user has pressed the Enter key, a new `li` is appended to the `#todo-list` that contains the value of the `#new-todo` input.
+
+After the todo item is added to the list. Clear the value of the `#new-todo` input.
+
+**Hint:** See jQuery's `val()`, `html()` and `append()` methods.

@@ -1,12 +1,10 @@
 (function ($) {
 	'use strict';
 
-	// Ex2.1: Create an event listener that listens for a click event
-	// on example tasks and adds a class of "editing" to the selected task.
+	// Ex3.0: Define the javascript object literal named App that will contain all of the application logic.
 
-	// Ex2.2: Create an event listener that logs which key was pressed.
+	// Ex3.1: Execute the App.init method.
 
-	// Ex2.3: Update the event handler above to log a message
-	// to the console if the enter key was pressed.
+	// Ex3.2 - 3.x: See README.md
 
 }(jQuery));
