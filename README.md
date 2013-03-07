@@ -10,7 +10,7 @@ Using the underscore `_.template` function, refactor the `App.create` method to 
 
 In addition, update the template to set the `value` attribute of the `.edit` input to the value of `#new-todo`.
 
-**Bonus:** HTML-escape the string that is interpolated in the template. (**Hint:** See the underscore [template](http://underscorejs.org/#template) documentation.
+**Bonus:** HTML-escape the string that is interpolated in the template. **Hint:** See the underscore [template](http://underscorejs.org/#template) documentation.
 
 ## 4.2
 
@@ -20,9 +20,9 @@ In `App.bindEvents`, add a new event binding that executes the `App.edit` method
 
 Within `App.edit`,  write logic to perform the following:
 
-* Add a class of "editing" to the parent `<li>` of the label that was clicked. (**Hint:** See jQuery's `.closest()` method)
+* Add a class of "editing" to the parent `<li>` of the label that was clicked. **Hint:** See jQuery's `.closest()` method
 
-* Set focus on the `.edit` input. (**Hint:** See jQuery's `.focus()` method)
+* Set focus on the `.edit` input. **Hint:** See jQuery's `.focus()` method
 
 ## 4.3
 
@@ -32,7 +32,7 @@ In `App.bindEvents`, add a new event binding that executes the `App.update` meth
 
 Within `App.update`, write logic to perform the following:
 
-* Remove focus from the `.edit` input. (**Hint:** See jQuery's `.blur()` method)
+* Remove focus from the `.edit` input. **Hint:** See jQuery's `.blur()` method
 
 * Change the value of the current todo item's `<label>` element to that of the `.edit` input.
 
