@@ -31,10 +31,10 @@
 		<li>
 			<div class="view">
 				<input class="toggle" type="checkbox">
-				<label></label>
+				<label><%- label %></label>
 				<button class="destroy"></button>
 			</div>
-			<input class="edit" value="">
+			<input class="edit" value="<%- label %>">
 		</li>
 	</script>
 	<script type="text/template" id="stats-template">
@@ -53,6 +53,7 @@
 		<button id="clear-completed">Clear completed</button>
 	</script>
 	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/underscore.js"></script>
 	<script src="js/app.js"></script>
 </body>
 </html>
